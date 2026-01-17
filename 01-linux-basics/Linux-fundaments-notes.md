@@ -34,8 +34,8 @@ offers a large amount of customization for those who are interested in exploring
 1) graphical or desktop Env
 2) shell or CMD-line Env
 
-- windows and mac us gaphical Env
-- linux use multiple Envs
+* windows and mac us gaphical Env
+* linux use multiple Envs
 
 # Linux Desktop Env
 We can install and switch between various desktop env
@@ -63,3 +63,45 @@ Linux Distros come with command-line tools to perform tasks
 Most Linux Distros include GNU core utilsities (coreutils)
 Manipulate files, set access permissions, very system status, etc.
 These allow a basiic Linux install to be functional and provide standard tool sets
+
+# Using the coreutils
+Learning linux command
+common commands should be memorized
+many are for very specific use cases and are otfen not used
+genereally pre-installed on any Linux Distro
+not shell, no worries
+
+# BusyBox
+some systems use busybox istead of GNU coreutils
+BusyBox is often in embedded/ lightweight systems
+offers similar commands to GNU coreutils
+
+* Software can be added to a linux system in a variety of ways
+
+# install for repos
+repos are collections of software pkges
+using pkge managment software, search repo pkges and install, remove, & update them
+pkge management tools usually handle dependencies
+A system's security updates come from repos, many systems will automatically check and install sec updates
+
+# package managment tools
+There are few different pkge management ecosystems, like APT and DNF
+Choice of pkge management echosystem is a core part of defining a distribution
+Modern pkge management tools will:
+  retrieve pkges from repos
+  Follow instructions in the pkges to put the pkges files in appropriate places
+
+# The role of source code
+Software in pkges are built or compiled from source code
+We can compile source code 
+Create/ download source code
+Use a compiler to create executable programs
+Complex source code may require extensive tooling to build manually
+
+# sandbox packages
+Allow software to be installed in platform-dependent ways
+Solutions include snaps, flatplak, and appimage
+Manages software as monolithic, isolated apps instead of installing various files throughout our system files
+These have advantages and drawbacks
+
+  
