@@ -26,27 +26,27 @@ not interacted with directly most users
 can be edited to make changes
 
 # A Linux System
-requires a linux kernel
-uses other software to control the boot process and manage running systems
-offers a large amount of customization for those who are interested in exploring it
+Requires a linux kernel
+Uses other software to control the boot process and manage running systems
+Offers a large amount of customization for those who are interested in exploring it
 
 # Interacting with a Linux System
 1) graphical or desktop Env
 2) shell or CMD-line Env
 
-* windows and mac us gaphical Env
-* linux use multiple Envs
+* Windows and mac us gaphical Env
+* Linux use multiple Envs
 
 # Linux Desktop Env
 We can install and switch between various desktop env
-many distros make a choice about which desktop they use
-popular desktop envs include GNOME shell, KDE Plasma Desktop, LXQt, Cinnamon, MATE, and Xfce (most commonly used)
-some taks require a desktop env, but others require a text-based shell
+Many distros make a choice about which desktop they use
+Popular desktop envs include GNOME shell, KDE Plasma Desktop, LXQt, Cinnamon, MATE, and Xfce (most commonly used)
+Some taks require a desktop env, but others require a text-based shell
 
 # Linux shell
 The software we interact with when typing commands and veiw returned text
-popular shells include Bash, Zsh, csh, fish, ksh
-bash is a good start
+Popular shells include Bash, Zsh, csh, fish, ksh
+Bash is a good start
 
 # Terminal Emulators
 A shell can run inside of a terminal emulator in a GUI evn, or i text mode
@@ -54,8 +54,8 @@ Windows and mac OS have terminal emulators, can be used with SSH to connect remo
 
 * Its good to be familiar with shell, reguardless of what you use the Linux system for
 
-some task require GUI
-use SSH to connect to remote systems
+Some task require GUI
+Use SSH to connect to remote systems
 
 #  Core Tools
 A kernel by itself isn't very useful
@@ -66,29 +66,29 @@ These allow a basiic Linux install to be functional and provide standard tool se
 
 # Using the coreutils
 Learning linux command
-common commands should be memorized
-many are for very specific use cases and are otfen not used
-genereally pre-installed on any Linux Distro
-not shell, no worries
+Common commands should be memorized
+Many are for very specific use cases and are otfen not used
+Genereally pre-installed on any Linux Distro
+No shell, no worries
 
 # BusyBox
-some systems use busybox istead of GNU coreutils
+Some systems use busybox istead of GNU coreutils
 BusyBox is often in embedded/ lightweight systems
-offers similar commands to GNU coreutils
+Offers similar commands to GNU coreutils
 
 * Software can be added to a linux system in a variety of ways
 
 # install for repos
-repos are collections of software pkges
-using pkge managment software, search repo pkges and install, remove, & update them
-pkge management tools usually handle dependencies
+Repos are collections of software pkges
+Using pkge managment software, search repo pkges and install, remove, & update them
+Pkge management tools usually handle dependencies
 A system's security updates come from repos, many systems will automatically check and install sec updates
 
 # package managment tools
 There are few different pkge management ecosystems, like APT and DNF
 Choice of pkge management echosystem is a core part of defining a distribution
 Modern pkge management tools will:
-  retrieve pkges from repos
+  Retrieve pkges from repos
   Follow instructions in the pkges to put the pkges files in appropriate places
 
 # The role of source code
@@ -104,4 +104,4 @@ Solutions include snaps, flatplak, and appimage
 Manages software as monolithic, isolated apps instead of installing various files throughout our system files
 These have advantages and drawbacks
 
-  
+   
