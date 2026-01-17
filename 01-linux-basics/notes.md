@@ -31,7 +31,7 @@ uses other software to control the boot process and manage running systems
 offers a large amount of customization for those who are interested in exploring it
 
 # Interacting with a Linux System
-1) rgaphical or desktop Env
+1) graphical or desktop Env
 2) shell or CMD-line Env
 
 - windows and mac us gaphical Env
