@@ -104,4 +104,6 @@ Solutions include snaps, flatplak, and appimage
 Manages software as monolithic, isolated apps instead of installing various files throughout our system files
 These have advantages and drawbacks
 
-   
+# software management can be confusing
+Not all software is available in the pkge formats
+
