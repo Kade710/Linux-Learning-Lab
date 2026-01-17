@@ -105,5 +105,21 @@ Manages software as monolithic, isolated apps instead of installing various file
 These have advantages and drawbacks
 
 # software management can be confusing
-Not all software is available in the pkge formats
+* Not all software is available in the pkge formats
+* Some distributions employ more than one solution
+* Ubuntu uses APT and SNAP
+* Ferdora use DNF and Flatpak
+* Mint uses APT and Flatpak
+* Being aware of the many software management options can help reduce confusion
+
+# the system files
+* Files and directories make up teh files
+* The (FHS) file hierarchy system describes how the file system is organized
+* This help ensure consistant locations across distributions
+* The top level of the file system is called the root, reped by (/)
+* There's only one file system rooton a system
+* everything else is attached or mounted
+
+# 
+
 
