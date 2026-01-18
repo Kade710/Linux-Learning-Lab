@@ -119,7 +119,38 @@ These have advantages and drawbacks
 * The top level of the file system is called the root, reped by (/)
 * There's only one file system rooton a system
 * everything else is attached or mounted
+* "File system has 2 meanings:
+  - The layout of files and directories on the storage
+  - The format stratagy that represents data and metadata
 
-# 
+# user accounts on linux
+* Has standard users
+ * Human users and programs or services can hav thier own account
+ * Can't access files that belong to other users or make changes without admin permission
+* root
+ * Can access any files and make changes
+ * STandard users can use root's privileges if they are empowered to do so using "su" or "sudo"
+ * It's common to borrow the superuser privileges to perform maintenance, modify configs or install software
 
+# single-user mode
+* Single-user mode is avaiable on most linux distros for trouble shooting
+* Single user in single-user mode is root
+* Some embedded systems and containers use single-user mode
 
+- Privileged and unprivileged users exist on all major OS
+
+# file permissions
+* Permissions represent what rights a user has to a given file
+* They can be numeric (like 755) or a symbol (like rwxr-xr-x)
+- User = 7; rwx
+- Group = 5; r-x
+- Others = 5; r-x
+* The chmod, chown, and chgrp commands are used to work with permissions
+
+- SELinux or AppArmor provide additional levels of security on a Linux system
+
+# exploring security
+* Learn more about Linux security
+  * Learning CMD line
+  * Ubuntu: essential cmds and sysadmin
+  * security an hardening training
